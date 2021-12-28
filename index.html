@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.min.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <label class="label" for="seats">Plane's seats arrangement</label>
+            <input name="seats" class="box" type="text"  required>
+            <label class="label" for="passangers">Passangers on the queue</label>
+            <input name="passangers" class="box" type="number" required>
+            <button id="button" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="seatingPlan"></div>
+    <script src="./js/AirPlanSeating.js"></script>
+    <script src="./js/index.js"></script>
+
+    <!-- <script src="jasmine/spec/testSpec.js"></script> -->
+</body>
+</html>
